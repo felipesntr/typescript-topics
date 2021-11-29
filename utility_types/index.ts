@@ -23,7 +23,7 @@ interface ContaPessoaJuridica {
     };
 };
 
-type ContaMEI = ContaPessoaFisica & ContaPessoaJuridica;
+type ContaMEI = ContaPessoaFisica | ContaPessoaJuridica;
 
 // Utility types
 
