@@ -18,3 +18,13 @@ function useState<S extends number | string>(initialState?: S) {
 
 
 let state = useState<number>(0);
+
+type Callback = (result: string) => void;
+
+function printAlgo(callback: Callback) {
+    callback("Hello");
+}
+
+printAlgo((result) => {
+    console.log(result);
+});
