@@ -1,0 +1,1 @@
+## Checking some TypeScript topics.
